@@ -12,10 +12,10 @@ body {
 
 .card {
     width: 412px;
-    height: 416px;
+    min-width: 416px;
     background: radial-gradient(#232A34, #181E27);
     border-radius: 30px;
-    margin: auto;
+    margin: 195px auto;
 }
 
 .content {
@@ -69,6 +69,13 @@ h1 {
     color: #262E38;
 }
 
+#errorMsg {
+    color: red;
+    text-align: center;
+    padding-top: 24px;
+
+}
+
 
 #submit {
     background-color: #FC7614;
@@ -115,4 +122,8 @@ h1 {
 .space {
     line-height: 24px;
     padding-top: 15px;
+}
+
+.hidden {
+    display: none;
 }
