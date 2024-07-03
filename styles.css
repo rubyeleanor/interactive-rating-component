@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'overpass', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: #969FAD;
+    font-size: 15px;
+}
+
+.card {
+    width: 412px;
+    height: 416px;
+    background: radial-gradient(#232A34, #181E27);
+    border-radius: 30px;
+    margin: auto;
+}
+
+.content {
+    padding: 32px;
+}
+
+h1 {
+    font-size: 28px;
+    color: white;
+    padding-top: 30px;
+}
+
+#star {
+    width: 48px;
+    height: 48px;
+    background-color: #262E38;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.nums {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background-color: #262E38;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #969FAD
+}
+
+.nums:hover {
+    background-color: #FC7614;
+    color: #262E38;
+    cursor: pointer;
+}
+
+.nums:focus {
+    background-color: white;
+    color: #262E38;
+}
+
+
+#submit {
+    background-color: #FC7614;
+    color: #131518;
+    height: 45px;
+    width: 100%;
+    border-radius: 22px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+
+#submit:hover {
+    background-color: white;
+    cursor: pointer;
+
+}
+
+/* second card */
+
+#thanks {
+    margin: 13px auto;
+    display: block;
+}
+
+.message {
+    margin: 32px auto 0;
+    width: 193px;
+    height: 32px;
+    background-color: #262E38;
+    border-radius: 22px;
+    color: #FC7614;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.space {
+    line-height: 24px;
+    padding-top: 15px;
+}
