@@ -9,11 +9,32 @@ body {
     height: 100%;
 }
 
+/* styling classes */
+
+.center {
+    text-align: center;
+}
+
+.space {
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* first card */
+
 body {
     background-color: black;
     color: #969FAD;
     font-size: 15px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -21,13 +42,11 @@ body {
 
 main {
     flex-grow: 1;
-    display: flex;
 }
 
 footer a {
     color: #FC7614;
 }
-
 
 .card {
     width: 412px;
@@ -53,14 +72,12 @@ h1 {
     height: 48px;
     background-color: #262E38;
     border-radius: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
 .rating {
-    display: flex;
     justify-content: space-between;
     padding: 24px 0;
 }
@@ -126,30 +143,11 @@ h1 {
     background-color: #262E38;
     border-radius: 22px;
     color: #FC7614;
-    display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-/* styling classes */
 
-.center {
-    text-align: center;
-}
-
-.space {
-    line-height: 24px;
-    padding-top: 15px;
-}
-
-.hidden {
-    display: none;
-}
-
-.flex {
-    display: flex;
-}
 
 @media screen and (max-width: 800px) {
     .card {
