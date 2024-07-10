@@ -25,13 +25,14 @@ main {
 }
 
 footer a {
-    color: #FC7614
+    color: #FC7614;
 }
 
 
 .card {
     width: 412px;
-    height: 416px;
+    min-height: 416px;
+    max-height: 450px;
     background: radial-gradient(#232A34, #181E27);
     border-radius: 30px;
     align-self: center;
@@ -89,10 +90,8 @@ h1 {
 }
 
 #errorMsg {
-    color: red;
-    text-align: center;
+    color: #FC7614;
     padding-top: 24px;
-
 }
 
 
@@ -111,7 +110,6 @@ h1 {
 #submit:hover {
     background-color: white;
     cursor: pointer;
-
 }
 
 /* second card */
@@ -134,6 +132,8 @@ h1 {
 
 }
 
+/* styling classes */
+
 .center {
     text-align: center;
 }
@@ -147,4 +147,40 @@ h1 {
     display: none;
 }
 
-@media screen and (max-width: 800px) {}
+.flex {
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 327px;
+        min-height: 360px;
+        max-height: 380px;
+        font-size: 14px;
+        border-radius: 15px;
+    }
+
+    #star {
+        width: 40px;
+        height: 40px;
+    }
+
+    .content {
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding-top: 18px;
+    }
+
+    .nums {
+        height: 42px;
+        width: 42px;
+    }
+
+    .space {
+        line-height: 22px;
+        padding-top: 12px;
+    }
+}
