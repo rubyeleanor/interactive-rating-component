@@ -4,18 +4,37 @@
     font-family: 'overpass', sans-serif;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     background-color: black;
     color: #969FAD;
     font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+main {
+    flex-grow: 1;
+    display: flex;
+}
+
+footer a {
+    color: #FC7614
+}
+
 
 .card {
     width: 412px;
-    min-width: 416px;
+    height: 416px;
     background: radial-gradient(#232A34, #181E27);
     border-radius: 30px;
-    margin: 195px auto;
+    align-self: center;
 }
 
 .content {
@@ -127,3 +146,5 @@ h1 {
 .hidden {
     display: none;
 }
+
+@media screen and (max-width: 800px) {}
